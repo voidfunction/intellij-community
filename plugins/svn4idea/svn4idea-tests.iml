@@ -4,6 +4,7 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$/testSource">
       <sourceFolder url="file://$MODULE_DIR$/testSource" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/testSource" />
     </content>
     <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
@@ -52,4 +53,3 @@
     </orderEntry>
   </component>
 </module>
-

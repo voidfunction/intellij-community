@@ -70,10 +70,10 @@ class IcsManager(dir: Path) {
     }
   }
 
-  val settingsFile = dir.resolve("config.json")
+  var settingsFile = dir.resolve("config.json")
 
-  val settings: IcsSettings
-  val repositoryManager: RepositoryManager = GitRepositoryManager(credentialsStore, dir.resolve("repository"))
+  var settings: IcsSettings
+  var repositoryManager: RepositoryManager = GitRepositoryManager(credentialsStore, dir.resolve("repository"))
 
   init {
     try {

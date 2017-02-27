@@ -4,6 +4,7 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$/testSources">
       <sourceFolder url="file://$MODULE_DIR$/testSources" isTestSource="true" packagePrefix="org.jetbrains.idea.devkit" />
+      <excludeFolder url="file://$MODULE_DIR$/testSources" />
     </content>
     <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />

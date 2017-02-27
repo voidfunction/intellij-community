@@ -30,7 +30,7 @@ import javax.swing.AbstractAction
 import javax.swing.Action
 
 fun updateSyncButtonState(url: String?, syncActions: Array<Action>) {
-  val enabled: Boolean
+  var enabled: Boolean
   try {
     enabled = url != null && url.length > 1 && icsManager.repositoryService.checkUrl(url, null);
   }

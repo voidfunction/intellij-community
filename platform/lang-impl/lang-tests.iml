@@ -4,6 +4,7 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$/testSources">
       <sourceFolder url="file://$MODULE_DIR$/testSources" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/testSources" />
     </content>
     <orderEntry type="module" module-name="boot" />
     <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />

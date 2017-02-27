@@ -52,7 +52,7 @@ class StateGetter<S : Any, T : Any>(private val component: PersistentStateCompon
 
     //System.out.println("close $componentName to read state, ${hashCode()} $storage, ${Thread.currentThread()}")
 
-    val stateAfterLoad: S?
+    var stateAfterLoad: S?
     try {
       stateAfterLoad = component.state
     }

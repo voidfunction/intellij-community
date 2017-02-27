@@ -4,6 +4,7 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$/testData">
       <sourceFolder url="file://$MODULE_DIR$/testData" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/testData" />
     </content>
     <content url="file://$MODULE_DIR$/testSources">
       <sourceFolder url="file://$MODULE_DIR$/testSources" isTestSource="true" />
